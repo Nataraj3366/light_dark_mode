@@ -1,0 +1,34 @@
+/* Write your CSS here */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
